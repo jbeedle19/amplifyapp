@@ -10,7 +10,7 @@ function App() {
       {({ signOut, user }) => (
         <header>
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>Welcome {user.username}!</h1>
+          <h1>Welcome home {user.username}!</h1>
           <button onClick={signOut}>Sign Out</button>
         </header>
       )}
